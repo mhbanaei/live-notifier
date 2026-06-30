@@ -72,7 +72,6 @@ def _fatal(message: str) -> None:
 def build_live_message(video_url: str, video_title: str = "", channel_name: str = "") -> str:
     lines = [
         "🔴 <b>لایو شروع شد!</b>\n\n",
-        '✨❤️ <a href="https://www.youtube.com/@42LEVEL">YouTube</a>\n'
         '📺 <a href="https://www.aparat.com/42level">آپارات</a>\n',
         '🎮 <a href="https://www.twitch.tv/42level">Twitch</a>\n',
     ]
@@ -80,8 +79,8 @@ def build_live_message(video_url: str, video_title: str = "", channel_name: str 
         lines.append(f"📺 کانال: <b>{channel_name}</b>")
     if video_title:
         safe_title = video_title.replace("<", "&lt;").replace(">", "&gt;")
-        lines.append(f"🎙 عنوان: <i>{safe_title}</i>")
-    lines.append(f'\n▶️ <a href="{video_url}">همین الان ببینید</a>')
+        lines.append(f"🎙 عنوان: <i>{safe_title}</i>\n\n")
+    lines.append(f'\n▶️ <b href="{video_url}">همین الان ببینید</b>')
     return "\n".join(lines)
 
 
