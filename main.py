@@ -47,8 +47,8 @@ def live_start_message(video_url, title, channel_name):
         lines.append(f"📺 کانال: <b>{channel_name}</b>")
     if title:
         safe = title.replace("<", "&lt;").replace(">", "&gt;")
-        lines.append(f"🎙 عنوان: <i>{safe}</i>")
-    lines.append(f'\n▶️ <a href="{video_url}">همین الان ببینید</a>')
+        lines.append(f"🎙 عنوان: <i>{safe}</i>\n")
+    lines.append(f'\n▶️ <a href="{video_url}"\n>همین الان ببینید</a>')
     return "\n".join(lines)
 
 
