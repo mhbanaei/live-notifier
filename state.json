@@ -1,6 +1,6 @@
 {
-  "is_live": false,
-  "video_id": null,
-  "message_id": null,
-  "end_message_id": 14
+  "is_live": true,
+  "video_id": "NfPsEd8nsIk",
+  "start_msg_id": 40,
+  "end_msg_id": null
 }

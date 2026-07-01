@@ -1,18 +1,12 @@
 {
-  "_comment": "راهنما: مقادیر YOUR_... را با اطلاعات واقعی جایگزین کنید.",
+  "youtube_channel_id": "UCrMGi1oYELKLGp5GgQajmWA",
+  "cookie_file":        "cookies.txt",
 
-  "youtube_api_key":    "YOUR_YOUTUBE_API_KEY_HERE",
-  "youtube_channel_id": "YOUR_CHANNEL_ID_HERE",
+  "telegram_bot_token": "Your_telegram_bot_token",
+  "telegram_chat_id":   "@A42level",
 
-  "telegram_bot_token": "YOUR_TELEGRAM_BOT_TOKEN_HERE",
-  "telegram_chat_id":   "@your_channel_username_or_numeric_id",
-
-  "channel_name": "نام کانال یوتیوب شما",
-
-  "check_interval_seconds": 300,
-  "retry_delay_seconds":    15,
-
-  "state_file": "state.json",
-  "log_file":   "bot.log",
-  "log_level":  "INFO"
+  "channel_name":             "42Level",
+  "check_interval_seconds":   20,
+  "retry_delay_seconds":      20,
+  "log_level":                "INFO"
 }

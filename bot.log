@@ -1,0 +1,12 @@
+2026-07-01 14:20:53 | INFO     | YouTubeChecker ready | channel_url=https://www.youtube.com/channel/UCrMGi1oYELKLGp5GgQajmWA/live | cookie_file=cookies.txt
+2026-07-01 14:20:53 | INFO     | No state file found, starting fresh.
+2026-07-01 14:20:53 | INFO     | =======================================================
+2026-07-01 14:20:53 | INFO     |   YouTube Live Notifier started
+2026-07-01 14:20:53 | INFO     |   Channel  : UCrMGi1oYELKLGp5GgQajmWA
+2026-07-01 14:20:53 | INFO     |   Name     : 42Level
+2026-07-01 14:20:53 | INFO     |   Interval : 5s
+2026-07-01 14:20:53 | INFO     |   State    : is_live=False | start_msg=None | end_msg=None
+2026-07-01 14:20:53 | INFO     | =======================================================
+2026-07-01 14:21:25 | INFO     | LIVE detected: 'TEST 2026-07-01 14:21' (id=sTNvF5vyo1A)
+2026-07-01 14:21:25 | INFO     | [TRANSITION] Offline → Live (sTNvF5vyo1A)
+2026-07-01 14:21:26 | INFO     | Message sent → message_id=38
